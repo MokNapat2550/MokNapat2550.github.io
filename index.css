@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 20px;
+  
+    
+}
+.header {
+    width: 100%;
+    
+}
+
+.menu  {
+    display: flex;
+    height: 200px;
+}
+
+li , a , img {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    margin-right: 15px;
+    height: 130px;
+    
+}
+
+
+.image img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity img {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.clickbtn a img {
+    width: 322;
+    height: 125;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #ffbaba;
+}
+
+.light-mode button {
+    background-color: #ffbaba;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30%;
+    width: 90px;
+    height: 100px;
+}
+
+
+.dark-mode {
+    background-color: #ffbaba;
+    color: #ffffff;
+}
+
+.dark-mode button {
+    background-color: #ffffff;
+    color: #ffbaba;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
