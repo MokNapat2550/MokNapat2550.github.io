@@ -57,3 +57,22 @@ li , a , img {
 .textabout h2{
     text-align: center;
 }
+
+.textabout h2{
+    text-align: center;
+}
+
+.textabc h4{
+    text-align: center;
+}
+
+.textxyz  {
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.line {
+    margin-top: 20px;
+}
+
